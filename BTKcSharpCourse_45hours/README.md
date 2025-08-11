@@ -52,19 +52,6 @@ Bu repoda, C#'ın temelinden ileri düzey konularına kadar birçok proje yer al
 
 ---
 
-## 📦 Kurulum ve Çalıştırma
-
-1. Bu repoyu bilgisayarınıza klonlayın:
-
-```bash
-git clone https://github.com/kullaniciadi/csharp-kurs-projeleri.git
-```
-
-2. Projeyi **Visual Studio** veya **Rider** gibi bir IDE ile açın.
-3. İlgili proje klasörünü seçip çalıştırın.
-
----
-
 ## 💡 Öğrenim Önerileri
 
 * **Temelden Başlayın**: Öncelikle dilin temel sözdizimini öğrenin.
