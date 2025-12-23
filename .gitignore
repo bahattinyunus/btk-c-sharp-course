@@ -1,0 +1,26 @@
+## Visual Studio .gitignore
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+packages/
+*.nupkg
+TestResults/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.dotSettings.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.opendb
+*.tlog
+*.log
+*.swp
+*.bak
+*.cachefile
+*.temp
+*.tmp
