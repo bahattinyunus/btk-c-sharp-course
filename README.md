@@ -102,20 +102,4 @@ Projeleri yerel ortamınızda çalıştırmak için aşağıdaki adımları izle
 
 ---
 
-## 🌟 Öne Çıkan Özellikler
-
-*   **Temiz Kod (Clean Code):** Değişken isimlendirmelerinden metod yapılarına kadar okunabilirlik ön planda tutulmuştur.
-*   **SOLID Prensipleri:** Özellikle ileri seviye modüllerde SOLID prensiplerine uygun mimari yapılar kurulmuştur.
-*   **Modüler Yapı:** Her konu kendi klasörü ve projesi altında izole edilmiştir, böylece konular birbirine karışmaz.
-
----
-
-## 🤝 İletişim
-
-Sorularınız, önerileriniz veya işbirliği için benimle iletişime geçmekten çekinmeyin:
-
-Bahattin Yunus Çetin  
-📧 [LinkedIn](https://linkedin.com/in/bahattinyunus)
-
----
-*Bu proje, BTK Akademi eğitim serisinin bir parçası olarak geliştirilmiştir ve sürekli güncellenmeye devam edecektir.*
+> 💡 *Bu çalışmalar, BTK Akademi eğitimlerini pekiştirmek amacıyla hazırlanmıştır.*
