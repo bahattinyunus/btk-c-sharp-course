@@ -1,26 +1,65 @@
 ## Visual Studio .gitignore
-.vs/
-[Bb]in/
-[Oo]bj/
-*.user
-*.userosscache
-*.sln.docstates
-packages/
-*.nupkg
-TestResults/
-_ReSharper*/
-*.[Rr]e[Ss]harper
-*.dotSettings.user
+## ve C# projeleri için optimize edilmiş ignore file
+
+# User-specific files
+*.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.userprefs
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww]in32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio Cache
+.vs/
 *.cache
-*.opendb
-*.tlog
-*.log
+
+# NuGet
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Other temp files
 *.swp
 *.bak
-*.cachefile
-*.temp
 *.tmp
