@@ -1,73 +1,54 @@
-# 🖥️ C# Kurs Projeleri
+# 💻 BTK Akademi: C# ile Nesne Yönelimli Programlama (45 Saat)
 
-## 🚀 Hakkında
+<div align="center">
+  <img src="https://img.shields.io/badge/Focus-Object%20Oriented%20Programming-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-orange?style=for-the-badge" />
+</div>
 
-Bu repo, **C# programlama dili** üzerine geliştirdiğim kurs projelerini içermektedir. Temel seviye uygulamalardan ileri seviye yazılım mimarilerine kadar geniş bir yelpazede örnekler barındırır. Amacım, hem kendi öğrenim sürecimi belgelemek hem de C# diline ilgi duyan yazılımcı adaylarına referans olacak kaliteli içerikler sunmaktır.
-
----
-
-## 🔍 C# Nedir?
-
-C#, Microsoft tarafından geliştirilen, **nesne yönelimli** (OOP - Object Oriented Programming) bir programlama dilidir. .NET platformunun bir parçası olarak tasarlanmış olan C#, hem masaüstü hem web hem de mobil uygulama geliştirmeye imkan tanır.
-
-### 🌟 C#'ın Öne Çıkan Özellikleri:
-
-* **Modern**: Basit ve okunabilir bir sözdizimine sahip.
-* **Güçlü Tip Denetimi**: Hataları erken aşamada yakalayabilme.
-* **Nesne Yönelimli**: Sınıflar, kalıtım, polimorfizm gibi konseptleri destekler.
-* **Platform Bağımsızlığı**: .NET Core ile Windows, macOS ve Linux üzerinde çalışabilir.
-* **Zengin Kütüphane Desteği**: Geniş hazır fonksiyon ve API koleksiyonu.
-* **Asenkron Programlama**: `async` ve `await` anahtar kelimeleri ile yüksek performanslı uygulamalar.
+Bu bölüm, Engin Demiroğ eğitmenliğinde gerçekleştirilen 45 saatlik efsanevi C# kampının tüm kodlarını ve projelerini içerir. Kurs, "spagetti kod" yazmaktan kaçınıp, kurumsal standartlarda, sürdürülebilir ve test edilebilir yazılım geliştirme yetkinliği kazandırmayı amaçlar.
 
 ---
 
-## 🛠️ Kullanım Alanları
+## 🗂️ Modül Detayları
 
-C#, geniş ekosistemi sayesinde birçok alanda tercih edilir:
+Aşağıda, çözüm içerisindeki klasörlerin ve projelerin ne amaçla oluşturulduğu detaylandırılmıştır:
 
-* **Masaüstü Uygulamaları** (WPF, WinForms)
-* **Web Uygulamaları** (ASP.NET Core)
-* **Mobil Uygulamalar** (Xamarin, MAUI)
-* **Oyun Geliştirme** (Unity Engine)
-* **Veri İşleme ve Otomasyon**
-* **API Geliştirme**
+### 🟢 Başlangıç Seviyesi (Temeller)
+*   **TypesAndVariables:** Value types (int, double, bool) ve Reference types farkları, bellek yönetimi (Stack vs Heap).
+*   **Conditionals:** `if-else`, `switch-case` blokları ve `ternary operator` kullanımı.
+*   **Loops:** `for`, `while`, `do-while` ve `foreach` döngüleri ile iterasyon mantığı.
+*   **Arrays:** Tek boyutlu ve çok boyutlu dizilerle çalışma.
+*   **Methods:** Parametreli metotlar, `ref` ve `out` keyword'leri, method overloading.
 
----
+### 🟡 Orta Seviye (OOP Temelleri)
+*   **Classes:** Sınıf yapısı, özellikler (properties), kapsülleme (encapsulation).
+*   **Constructors:** Kurucu metotlar ve nesne başlatma süreçleri.
+*   **Interfaces:** Arayüzler ile soyutlama, bağımlılıkları yönetme ve polimorfizm temelleri. **En kritik konulardan biridir.**
+*   **Inheritance:** Kalıtım, `base` keyword'ü ve hiyerarşik yapı kurma.
+*   **AbstractClasses:** Tamamlanmamış metotlar ve ortak operasyonların yönetimi.
+*   **VirtualMethods:** Metot ezme (overriding) işlemleri.
 
-## 📂 Repo İçeriği
+### 🔴 İleri Seviye (Profesyonel Teknikler)
+*   **InterfacesDemo & RecapDemo1:** Öğrenilenlerin gerçek hayat senaryosunda (örneğin bir müşteri yönetim sistemi) uygulanması. Interface'lerin neden "class"lardan daha kritik olduğunun kanıtı.
+*   **Generics:** Tip güvenli (`Type-Safe`) kod yazma, `List<T>`, `Dictionary<TKey, TValue>` yapıları ve Generic Constraints (`where T : class, new()`).
+*   **Attributes & Reflection:** Kodun kendisine çalışma zamanında erişme, meta veri ekleme. Validasyon kuralları oluşturmak için kullanıldı.
+*   **Delegates & Events:** Metot referansları, kendi event'lerimizi oluşturma.
+*   **Exceptions:** `try-catch-finally` blokları ve özel hata sınıfları (`Custom Exceptions`) oluşturma.
 
-Bu repoda, C#'ın temelinden ileri düzey konularına kadar birçok proje yer almaktadır:
-
-* **Temel Syntax ve Değişkenler**
-* **Koşullu İfadeler ve Döngüler**
-* **Metotlar ve Fonksiyonlar**
-* **Sınıflar ve Nesneler**
-* **Koleksiyonlar (List, Dictionary, Array)**
-* **LINQ Sorguları**
-* **Dosya İşlemleri**
-* **Exception Handling**
-* **Asenkron Programlama**
-* **Mini CRUD Projeleri**
-* **API Entegrasyon Örnekleri**
-
----
-
-## 💡 Öğrenim Önerileri
-
-* **Temelden Başlayın**: Öncelikle dilin temel sözdizimini öğrenin.
-* **Bol Bol Uygulama Yapın**: Teori kadar pratik de önemlidir.
-* **Dökümantasyon Kullanın**: Microsoft Docs, Stack Overflow ve GitHub gibi kaynaklardan yararlanın.
-* **Topluluklara Katılın**: C# geliştirici topluluklarında soru sorun ve katkı sağlayın.
+### 💾 Veri Erişimi ve Mimari
+*   **AdoNetDemo:** Ham SQL sorguları ile veritabanına erişim (Eski ama temeli anlamak için gerekli).
+*   **EntityFrameworkDemo:** Modern ORM aracı ile veritabanı işlemleri. CRUD operasyonları, LINQ sorguları.
+*   **RecapDemo2:** Kursun final projesi niteliğinde. Katmanlı mimari benzeri bir yapı ile loglama, veritabanı erişimi ve iş kurallarının ayrıştırılması.
 
 ---
 
-## 🤝 Katkı
+## 💡 Neler Öğrendim?
 
-Eğer bu projeye katkı sağlamak isterseniz **pull request** gönderebilir veya **issue** açabilirsiniz.
+Bu modülü tamamlayarak şunları kazandım:
+1.  **Interface Segregation:** Yazılımı lego parçaları gibi tasarlamayı.
+2.  **Dependency Injection:** Bağımlılıkları new'lemek yerine dışarıdan enjekte etmeyi.
+3.  **ORM Mantığı:** SQL yazmadan veritabanı ile nesne tabanlı konuşmayı.
+4.  **Clean Code:** "Çalışıyorsa dokunma" değil, "Daha iyi nasıl yazılabilir?" felsefesini.
 
 ---
-
-
----
-
-> 💬 *"Kod, yazılımcının el yazısıdır. Ne kadar çok yazarsan, o kadar iyi okunur."*
+[🔙 Ana Sayfaya Dön](../README.md)
